@@ -1,4 +1,4 @@
-#prob 1- file handling integers
+# prob 1 file handling integers
 
 # Open the input file for reading
 with open("numbers.txt", "r") as input_file:
