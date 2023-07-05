@@ -4,7 +4,7 @@ class Fan:
     MEDIUM = 2
     FAST = 3
 
-    def init(self, speed=SLOW, radius=5, color='blue', on=False):
+    def __init__(self, speed=SLOW, radius=5, color='blue', on=False):
         self.speed = speed
         self.radius = radius
         self.color = color
