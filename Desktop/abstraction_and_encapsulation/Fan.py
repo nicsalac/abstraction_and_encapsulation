@@ -12,5 +12,13 @@ class Fan:
     # get and set methods for class Fan
     def get_speed(self):
         return self.speed
-    def set_speed(self)
-        return self.speed 
+    def set_speed(self,speed):
+        self.speed = speed
+    def get_on(self):
+        return self.on
+    def set_on(self,on):
+        self.on = on
+    def get_radius(self):
+        return self.radius
+    def set_radius(self,radius):
+        self.radius = radius
