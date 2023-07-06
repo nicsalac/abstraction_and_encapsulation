@@ -46,9 +46,14 @@ class PetGUIComponents:
         my_pet.set_animal_type(self.entry_type.get())
         my_pet.set_age(int(self.entry_age.get()))
 
+        #output of the pet's data by the use of the object's accessor methods
+        result_str = "Your pet's name is" + my_pet.get_name() + "\n"
+        result_str += "Your pet's type is" + my_pet.get_animal_type() + "\n"
+        result_str += "Your pet's age is" + str(my_pet.get_age()) + "\n"
+
+        self.result_label.grid()
+
         
-
-
 
 
 
