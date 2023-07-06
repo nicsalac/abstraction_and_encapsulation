@@ -39,7 +39,14 @@ class PetGUIComponents:
     self.result_label.grid(row= 4, columnspan= 2)
     self.result_label.grid_remove()
     
-    
+    def submit(self):
+        #create an object of the claas Pet and set attributes from GUI components"
+        my_pet = Pet()
+        my_pet.set_name(self.entry_name.get())
+        my_pet.set_animal_type(self.entry_type.get())
+        my_pet.set_age(int(self.entry_age.get()))
+
+        
 
 
 
