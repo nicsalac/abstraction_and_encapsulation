@@ -24,14 +24,26 @@ class PetGUIComponents:
     self.label_type.grid(row=1, column=0)
 
     self.entry_type = tk.Entry(window, font=my_font, bg="#FFFFFF")
-    selfentry_type.grid(row=1, column=1)
+    self.entry_type.grid(row=1, column=1)
 
     self.label_age = tk.Label(window, text="Enter your pet's age", font=my_font, fg="#5C3C28", bg="#F3EFEF")
     self.label_age.grid(row=2, column=1)
 
     self.entry_age = tk.Entry(window, font=my_font, bg="#FFFFFF")
     self.entry_age.grid(row=2, column=1)
+
+    self.submit_button = tk.Label(window, text= "", font=my_font, fg="#5C3C28", bg="#FFDAA")
+    self.submit_button.grid (row=4, columnspan=2, pady=20)
+
+    self.result_label = tk.Label(window, text= "", font=my_font, fg="#5C3C28", bg="#F3EFEF")
+    self.result_label.grid(row= 4, columnspan= 2)
+    self.result_label.grid_remove()
     
+    
+
+
+
+
 
 
 
