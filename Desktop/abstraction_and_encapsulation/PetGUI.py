@@ -11,6 +11,10 @@ class PetGUIComponents:
         window.geometry("500x300")
         window.configure(bg= "#F3EFEF")
 
+    my_font = font.Font(font= 'Arial', size= 12)
+
+    #Pet Information input and submit button
+
 
 
 
